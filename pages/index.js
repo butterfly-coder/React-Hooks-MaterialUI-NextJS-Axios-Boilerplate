@@ -16,7 +16,6 @@ const Homepage = props => {
   const router = useRouter()
 
   useEffect(() => {
-    const user = authService.getCurrentUser();
 
   }, []);
 
